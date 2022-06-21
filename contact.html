@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: black;
+        }
+        .menu1{
+          background-color: yellow;
+          color: black;
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          padding: 40px 100px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          z-index: 1000;
+          margin-bottom: 6rem;
+       }
+        .menu1 a{
+          text-decoration: none;
+          color: black;
+          margin-right: 8rem;
+       }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://blog.genealogybank.com/wp-content/uploads/2014/12/bellingham-herald-newspaper-1208-1941-wwii-japan-u.s.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .j{
+            width: 19rem;
+            height: 2rem;
+        }
+        .f h1{
+            display: flex;
+            justify-content: center;
+        }
+        label{
+            font-size: 1.2rem;
+        }
+        .f{
+            background-color: #CAE1F2;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            padding-top: 6rem;
+            opacity: 0.9;
+            height: 85vh;
+        }
+        h1{
+            padding-bottom: 19rem;
+            color: black;
+            padding-left: 20rem;
+        }
+        .e{
+            padding-left: 6rem;
+            font-size: 2rem;
+        }
+        button{
+            background-color: blue;
+            width: 11rem;
+            height: 2rem;
+        }
+        .social{
+           z-index: 10;
+           background-color: black;
+           width: 100%;
+           height: 22vh;
+           display: flex;
+           justify-content: space-evenly;
+           margin-top: 0.3rem;
+       }
+         .social a{
+           color: darkred;
+           flex-direction: row;
+           padding-left:0;
+           padding-top: 3rem;
+           text-decoration: none;
+           font-size: 1.2rem;
+       }
+       .social b{
+        color: darkred;
+        padding-bottom: 4rem;
+       }
+        @media all and (max-width:991px){
+       .menu1{
+          display: block;
+          text-align: center;
+        }
+       .menu1 a{
+          display: block;
+       }
+    .menu1 a{
+         color: black;
+         text-decoration: none;
+      } 
+    .menu1 a:hover{
+       color: black;
+    }
+    .social{
+        display: block;
+        height: 45vh;
+        margin-top: 55rem;
+    }
+    .social a{
+        display: block;
+        text-align: center;
+    } 
+  }  
+    </style>
+</head>
+<body>
+    <header class="menu1">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact.html">Join Us</a>
+   </header>
+    <div class="container">
+        <div class="f">
+            <form action="">
+                <label class="e" for="">JOIN US</label> <br> <br> <br> <br>
+                <label for="">First Name</label> <br> 
+                <input class="j" type="text"> <br> <br>
+                <label for="">Last Name</label> <br> 
+                <input class="j" type="text"> <br> <br>
+                <label for="">Postal Code</label> <br> 
+                <input class="j" type="text"> <br> <br>
+                <label for="">Address</label> <br>
+                <input class="j" type="text"> <br> <br>
+                <label for="">Date Of Birth</label> <br>
+                <input class="j" type="date"> <br> <br>
+                <label for=""> Gender </label> <br> 
+                <input type="radio"name="gender">
+                <label for=""> Female </label>
+                <input type="radio" name="gender"> 
+                <label for="" > Male </label> 
+                <input type="radio" name="gender"> 
+                <label for="" > Other </label> <br> <br>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="social">
+        <a href=""><b>Location</b> <br> Upper Manhattan</a></li>  
+        <a href=""><b>Post code</b> <br> 22422</a> </li>
+        <a href=""><b>Further information about WW2</b> <br> https:/ww2.com</a></li>
+    </div>
+</body>
+</html>

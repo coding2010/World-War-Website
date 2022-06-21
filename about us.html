@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .menu1{
+          background-color: yellow;
+          color: black;
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          padding: 40px 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 1000;
+          margin-bottom: 6rem;
+       }
+        .row{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          border-bottom: solid 1px white;
+       }
+       .l{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+       }
+       .l .r{
+        padding-bottom: 10rem;
+       }
+        .col{
+            width: 50%;
+            height: 90vh;
+        }
+        .f1{
+            background-color: #051225;
+            color: white;
+        }
+        .f1 h1{
+            padding-top: 13rem;
+            justify-content: center;
+            display: flex;
+            margin-bottom: 1rem;
+        }
+        .f1 p{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-size: 1.3rem;
+        }
+        .menu1 a{
+          text-decoration: none;
+          color: black;
+          margin-right: 13rem;
+       }
+       .f2{
+        background: url(https://exhibitions.ushmm.org/storage/301/d5d23e36-3c35-11e8-a0c9-0a8fdb86ecba.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .e2{
+        background: url("IMG_6641.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .social{
+        z-index: 10;
+        background-color: black;
+        width: 100%;
+        height: 18vh;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-evenly;
+          }
+       .social a{
+        color: darkred;
+        flex-direction: row;
+        padding-left:0;
+        padding-top: 3rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+       @media all and (max-width:991px){
+       .menu1{
+          display: block;
+          text-align: center;
+        }
+       .menu1 a{
+          display: block;
+        }
+       .menu1 a{
+         color: black;
+         text-decoration: none;
+       } 
+       .menu1 a:hover{
+         color: black;
+       }
+       .social{
+        display: block;
+        height: 45vh;
+      }
+       .social a{
+        display: block;
+        text-align: center;
+      }
+      .row{
+        display: block;
+      }
+      .col{
+        width: 100%;
+      }
+   }
+    </style>
+</head>
+<body>
+    <header class="menu1">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact.html">Join Us</a>
+    </header>
+    <div class="row">
+        <div class="col f1">
+            <h1><b>About Us</b></h1>
+            <p>We strive to be a community that gives people solace during these turbulent times. Our goal is to provide people comfort and show them how they can support the allies in the war and why the should support the allies during this war. We deeply believe in this cause and know many other people do too. We are trying to make a community around that cause.</p>
+        </div>
+        <div class="col f2"></div>
+    </div>
+    <div class="l">
+      <div class="col f1">
+        <h1 class="d"><b>How We Started</b></h1>
+      <p>We started as a small organisation that donated to and helped people in need and slowly grew into a community with over 13,000 members. We like to think we can be a safe space where people can come and talk about how this war has impacted them and show their support to the allies. We are a pro-allied organisation and fully against Hitler's discriminitory ways.</p>
+      </div>
+      <div class="col e2"></div>
+    </div>
+    <div class="social">
+        <a href=""><b>Location</b> <br> Upper Manhattan</a></li>  
+        <a href=""><b>Post code</b> <br> 22422</a> </li>
+        <a href=""><b>Further information about WW2</b> <br> https:/ww2.com</a></li>
+    </div>
+</body>
+</html>

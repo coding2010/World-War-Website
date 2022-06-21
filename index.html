@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,900&display=swap');
+    *{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .menu1{
+        background-color: yellow;
+        color: black;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 40px 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1000;
+        margin-bottom: 6rem;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col h1{
+    padding-top: 23.5rem;
+    display: flex;
+    justify-content: center;
+    color: red;
+    opacity: 0.9;
+    font-size: 2rem;
+}
+.col{
+    background-image: url(https://i.guim.co.uk/img/media/ace15db0cb1784f61b1f956b3faf806c21110240/0_190_2126_1276/master/2126.jpg?width=860&quality=45&auto=format&fit=max&dpr=2&s=08d60cecc8a3dec712336df603eb0cc2);
+    width: 50%;
+    height: 100vh;
+    background-size: cover; 
+}
+.col p{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+.col-3{
+    height: 100vh;
+    width: 50%;
+    padding-top: 11rem;
+    background-image:url("2022-06-14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkred;
+    font-size: 2rem;
+    padding-top: 5rem;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.col-3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17rem;
+}
+.menu1 a{
+    text-decoration: none;
+    color: black;
+}
+.social{
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    height: 18vh;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social a{
+    color: darkred;
+    flex-direction: row;
+    padding-left:0;
+    padding-top: 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+@media all and (max-width:991px){
+    .menu1{
+        display: block;
+        text-align: center;
+    }
+    .menu1 a{
+        display: block;
+}
+    .menu1 a{
+    color: black;
+    text-decoration: none;
+} 
+    .menu1 a:hover{
+    color: black;
+}
+    .row{
+        display: block;
+    }
+    .col{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .social{
+        display: block;
+        height: 39vh;
+    }
+    .social a{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}
+</style>
+<body>
+    <section class="showcase">
+        <header class="menu1">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="about us.html">About Us</a>
+            <a href="contact.html">Join Us</a>
+        </header>
+        <div class="row">
+            <div class="col">
+                <h1> <center><b><i><u>This is the destruction Hitler is capable of. </u></i></b></center></h1><br> <p>This destruction will continue if it is ignored. <br> Support the government to ensure no other <br> place suffers the same fate </p>      
+            </div>
+            <div class="col-3">
+                <h1><b>It's up to you <br> to STOP HIM! </b></h1>
+            </div>
+        </div>
+        <div class="social">
+                <a href=""><b>Location</b> <br> Upper Manhattan</a></li>  
+                <a href=""><b>Post code</b> <br> 22422</a> </li>
+                <a href=""><b>Further information about WW2</b> <br> https:/ww2.com</a></li>
+        </div>
+    </section> 
+</body>
+</html>

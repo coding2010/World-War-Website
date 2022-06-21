@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .menu1{
+        background-color: yellow;
+        color: black;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 40px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        margin-bottom: 6rem;
+    }
+    .first{
+        background-image: url("2022-06-16 (4).png");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .first p{
+        color: purple;
+        display: flex;
+        justify-content: center;
+        padding-top: 13rem;
+        font-size: 3rem;
+    }
+    .menu1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .row{
+        width: 100%;
+        height: 90vh;
+        background-color: #051225;
+    }
+    .k{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 10rem;
+        color: #E98D00;
+        font-size: 1.2rem;
+    }
+    .col{
+        margin: 1%;
+        width: 32%;
+        height: 69vh;
+        background-color: green;
+    }
+    .row h1{
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 1rem;
+    }
+    .row h2{
+        padding-top: 17rem;
+        padding-left: 6rem;
+    }
+    .r{
+        background-image: url(https://cdn.tutsplus.com/vector/uploads/legacy/articles/2010/inspir_propagandaposters/joinusmarines.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .r2{
+        background-image: url(https://cdn.discordapp.com/attachments/922542288943595580/986966826103734302/unknown.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .r1{
+        background-image: url(https://merrynallingham.com/wp-content/uploads/2017/12/queueDM2011_468x338.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .j{
+        text-decoration: underline;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 7.5rem;
+        color: #0749CA;
+    }
+    .social{
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    height: 18vh;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .social a{
+    color: darkred;
+    flex-direction: row;
+    padding-left:0;
+    padding-top: 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    }
+    @media all and (max-width:991px){
+    .menu1{
+        display: block;
+        text-align: center;
+    }
+    .menu1 a{
+        display: block;
+    }
+    .menu1 a{
+       color: black;
+       text-decoration: none;
+    } 
+    .menu1 a:hover{
+       color: black;
+    }
+    .social{
+        display: block;
+        height: 45vh;
+        margin-top: 55rem;
+    }
+    .social a{
+        display: block;
+        text-align: center;
+    }
+    .row{
+        display:block;
+    }
+    .col{
+        width: 100%;
+    }
+    
+  }
+</style>
+<body>
+    <header class="menu1">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact.html">Join Us</a>
+   </header>
+   <div class="first">
+    <p> <b> You dont need to be in the military <br> to help. No matter how small <br> your contribution, it makes a difference. <br> These are some events through <br> which you can show your support <br> to the allies </b> </p>
+   </div>
+   <div class="row">
+    <h1>UPCOMING EVENTS</h1>
+    <div class="k">
+        <div class="col r"><h2><u><b>Army Recrution</b></u></h2></div>
+        <div class="col r1"><h2><u><b>Charity to people who lost their job</b></u></h2></div>
+        <div class="col r2"><h2><u><b>Anti-Nazi Walk</b></u></h2></div>
+    </div>
+    <a href="contact.html" class="j">SIGN UP FOR EVENTS</a>
+   </div>
+   <div class="social">
+    <a href=""><b>Location</b> <br> Upper Manhattan</a></li>  
+    <a href=""><b>Post code</b> <br> 22422</a> </li>
+    <a href=""><b>Further information about WW2</b> <br> https:/ww2.com</a></li>
+</div>
+</body>
